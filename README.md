@@ -7,6 +7,7 @@
  * [X] status
  * [X] commit
  * [X] diff
+ * [X] log [--oneline, --graph]
  * [ ] checkout
  * [ ] revert
  * [ ] reset
