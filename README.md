@@ -8,6 +8,7 @@
  * [X] commit
  * [X] diff
  * [X] log [--oneline, --graph]
- * [ ] checkout
+ * [X] checkout
+ * [X] remote
  * [ ] revert
  * [ ] reset
