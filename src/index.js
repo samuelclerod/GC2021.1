@@ -2,9 +2,9 @@ const express = require('express')
 
 const app = express()
 
-app.get('/', (req, res) => {
-    res.json({ message: "Olá mundo from express" })
-})
+const wellcomeRoute = require('./routes/wellcome_route')
+
+app.use('/wellcome', wellcomeRoute)
 
 const PORT = 3333
 
