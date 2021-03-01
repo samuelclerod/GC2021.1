@@ -4,7 +4,7 @@ const app = express()
 
 const wellcomeRoute = require('./routes/wellcome_route')
 
-app.use('/wellcome', wellcomeRoute)
+app.use('/', wellcomeRoute)
 
 const PORT = 3333
 
