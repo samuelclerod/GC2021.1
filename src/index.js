@@ -1,6 +1,15 @@
 const express = require('express')
+const handlebars = require('express-handlebars')
 
 const app = express()
+
+app.engine('hbs', handlebars({
+    defaultLayout: 'main',
+    extname: '.hbs'
+    //TODO configure views to src folder
+}));
+
+app.set('view engine', 'hbs');
 
 const wellcomeRoute = require('./routes/wellcome_route')
 const dashboardRoute = require('./routes/dashboard_route')
