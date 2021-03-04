@@ -7,5 +7,4 @@ route.get('/', (req, res) => {
         message: 'Under construction...'
     })
 })
-
 module.exports = route
