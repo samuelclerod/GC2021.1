@@ -15,5 +15,14 @@
  * [x] pull
  * [x] fetch
  * [X] reset
- * [ ] branch
- * [ ] merge [--no-ff]
+ * [X] branch
+ * [X] merge [--no-ff]
+
+ Recursos do GITHUB vistos
+ * [X] how to block branches
+ * [X] pull-request
+ * [X] Code Review
+ * [X] Github Projects
+ * [X] branch
+
+
